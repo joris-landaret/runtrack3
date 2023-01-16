@@ -4,7 +4,7 @@ function afficherjourssemaines(){
 
     let text = "";
     for(let i in jourssemaines){
-        console.log(jourssemaines[i]);;
+        console.log(jourssemaines[i]);
     }
 
 }

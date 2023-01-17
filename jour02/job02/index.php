@@ -11,10 +11,13 @@
 
 <body>
     <main>
-        <article id="citation">
-            La vie a beaucoup plus d'imagination que nous.
-        </article>
-        <button id="button">envoi</button>
+
+        <button id="button">Afficher ou cacher</button>
+
+        <div id="div">
+
+        </div>
+
     </main>
 </body>
 

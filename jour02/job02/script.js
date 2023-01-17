@@ -1,16 +1,33 @@
 document.addEventListener("DOMContentLoaded", function() {   
     
+    let button = document.querySelector("#button");
+    let div = document.querySelector("#div");
+
+       
+
     // fonction qui récupère le texte de l'article et l'affiche dans la console grâce au button
-    function citation(){
+    function showhide(){
         
-        // cible l'article et le button
-        const button = document.querySelector("#button")
-        const article = document.querySelector("#citation").innerHTML
-    
-        console.log(article);
+        let article = document.createElement("article");
+        const text = "L'important n'est pas la chute, mais l'atterrissage."
+        article.textContent = text;
+        let select_article = document.querySelector("article");
+        //div.appendChild(article);
+        console.log(select_article);
+
+        if(select_article == null){
+           
+            div.appendChild(article);
+        }else {
+            console.log('toto');
+            div.removeChild(div.children[0]);
+            
+        }
+        
+        showhide.onclick;
     }
     
-    button.addEventListener('click', citation, {
+    button.addEventListener('click', showhide, {
         
     });
 

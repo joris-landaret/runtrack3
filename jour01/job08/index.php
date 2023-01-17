@@ -11,6 +11,12 @@
 
 <body>
     <main>
+        <script>
+            let int1 = 5;
+            let int2 = 7;
+            let result = sommenombrespremiers(num1, num2);
+            console.log(result);
+        </script>
 
     </main>
 </body>

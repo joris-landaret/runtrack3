@@ -14,8 +14,9 @@
 
         <button id="button">Afficher ou cacher</button>
 
-        <p id="compteur">0</p>
+        <div id="div">
 
+        </div>
     </main>
 </body>
 

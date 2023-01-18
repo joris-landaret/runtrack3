@@ -1,33 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {   
     
+    // cibler le bouton et le p
     let button = document.querySelector("#button");
-    let div = document.querySelector("#div");
+    let compteur = document.querySelector("#compteur");
 
-       
-
-    // fonction qui récupère le texte de l'article et l'affiche dans la console grâce au button
-    function showhide(){
+    // fonction qui compte à chaque click sur un bouton
+    function count(){
         
-        let article = document.createElement("article");
-        const text = "L'important n'est pas la chute, mais l'atterrissage."
-        article.textContent = text;
-        let select_article = document.querySelector("article");
-        //div.appendChild(article);
-        console.log(select_article);
 
-        if(select_article == null){
-           
-            div.appendChild(article);
-        }else {
-            console.log('toto');
-            div.removeChild(div.children[0]);
-            
-        }
-        
-        showhide.onclick;
+
     }
     
-    button.addEventListener('click', showhide, {
+    button.addEventListener('click', count, {
         
     });
 

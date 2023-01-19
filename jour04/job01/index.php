@@ -13,11 +13,7 @@
 <body>
     <main>
 
-        <button id="button2">Afficher</button>
-        <button id="button1">Cacher</button>
-
-        <p id="p1">Les logiciels et les cathédrales, c'est un peu la même chose - d'abord on les construit,
-            ensuite on prie.</p>
+        <button id="button">Afficher</button>
 
     </main>
 </body>

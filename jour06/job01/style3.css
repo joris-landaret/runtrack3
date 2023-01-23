@@ -1,3 +1,5 @@
-body {
-    background : #275fa0;
+@media only screen and (min-width: 1280px) and (max-width: 1680px) {
+    body {
+        background : #275fa0;
+    }
 }

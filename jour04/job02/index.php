@@ -11,8 +11,7 @@
 
 <body>
     <main>
-        <button id="button">Afficher</button>
-        <!-- <p id="p"></p> -->
+
     </main>
 </body>
 

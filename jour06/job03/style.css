@@ -1,17 +1,34 @@
-@media only screen and (min-width: 1680px) and (max-width: 1920px) {   
-    body{
-        background : #ffca4b;
+@media only screen and (min-width: 1600px) {   
+    .section {
+        background : #88c1d0;
+        padding: 2%;
+        margin: 1%;
+        width: 40%;
+    }
+    body {
+        display: flex;
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1680px) {
+@media only screen and (min-width: 768px) and (max-width: 1599px) {
+    .section {
+        background : #88c1d0;
+        padding: 2%;
+        width: 40%;
+        margin: 1%;
+    }
     body {
-        background : #275fa0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
-@media only screen and (max-width: 1280px) {
-    body {
-        background : #ffffff;
+@media only screen and (max-width: 767px) {
+    .section {
+        background : #88c1d0;
+        padding: 2%;
+        margin: 1%;
     }
+   
 }

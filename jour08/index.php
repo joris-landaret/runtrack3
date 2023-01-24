@@ -11,14 +11,14 @@
 
 <body>
     <header class="bg-slate-500 flex justify-evenly text-white items-center h-12">
-        <a href="index.php" class="">Acceuil</a>
+        <a href="index.php">Acceuil</a>
         <a href="index.php">Inscription</a>
         <a href="index.php">Connexion</a>
         <a href="index.php">Rechercher</a>
     </header>
 
-    <section>
-        <form action="">
+    <section class="flex justify-center">
+        <form action="" class="flex flex-col border-stone-400 border-2 w-2/5 p-2">
             <input type="radio" name="monsieur">
             <label for="monsieur">Monsieur</label>
             <input type="radio" name="madame">
@@ -38,23 +38,11 @@
         </form>
     </section>
 
-    <footer>
-        <a href="index.php">
-            <ul>
-                <li>
-                    Acceuil
-                </li>
-                <li>
-                    Inscription
-                </li>
-                <li>
-                    Connexion
-                </li>
-                <li>
-                    Rechercher
-                </li>
-            </ul>
-        </a>
+    <footer class="bg-slate-900 flex justify-around text-white items-center h-12">
+        <a href="index.php">Acceuil</a>
+        <a href="index.php">Inscription</a>
+        <a href="index.php">Connexion</a>
+        <a href="index.php">Rechercher</a>
     </footer>
 </body>
 

@@ -29,7 +29,22 @@
     </header>
 
     <footer>
-
+        <a href="index.php">
+            <ul>
+                <li>
+                    Acceuil
+                </li>
+                <li>
+                    Inscription
+                </li>
+                <li>
+                    Connexion
+                </li>
+                <li>
+                    Rechercher
+                </li>
+            </ul>
+        </a>
     </footer>
 </body>
 

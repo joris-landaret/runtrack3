@@ -17,7 +17,7 @@
         <a href="index.php">Rechercher</a>
     </header>
 
-    <section class="flex justify-center">
+    <section class="flex justify-center p-2">
         <form action="" class="flex flex-col border-stone-400 border-2 w-2/5 p-2">
             <input type="radio" name="monsieur">
             <label for="monsieur">Monsieur</label>

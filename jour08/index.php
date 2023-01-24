@@ -34,6 +34,9 @@
             <input type="text">prénom
             <input type="text">nom
             <input type="text">adresse
+            <input type="email">email
+            <input type="password">mot de passe
+            <input type="password">confirmation mot de passe
 
         </form>
     </section>

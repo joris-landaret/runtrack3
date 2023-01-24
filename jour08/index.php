@@ -30,7 +30,10 @@
 
     <section>
         <form action="">
-            <input type="radio">civilité
+            <input type="radio" name="monsieur">
+            <label for="monsieur">Monsieur</label>
+            <input type="radio" name="madame">
+            <label for="madame">Madame</label>
             <input type="text">prénom
             <input type="text">nom
             <input type="text">adresse
@@ -42,6 +45,7 @@
             <input type="checkbox">voyages
             <input type="checkbox">sport
             <input type="checkbox">lecture
+            <button>inscription</button>
         </form>
     </section>
 

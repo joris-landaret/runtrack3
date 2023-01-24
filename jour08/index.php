@@ -37,7 +37,11 @@
             <input type="email">email
             <input type="password">mot de passe
             <input type="password">confirmation mot de passe
-
+            <label for="">Passion</label>
+            <input type="checkbox">informatique
+            <input type="checkbox">voyages
+            <input type="checkbox">sport
+            <input type="checkbox">lecture
         </form>
     </section>
 

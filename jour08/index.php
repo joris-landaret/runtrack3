@@ -28,6 +28,16 @@
         </a>
     </header>
 
+    <section>
+        <form action="">
+            <input type="radio">civilité
+            <input type="text">prénom
+            <input type="text">nom
+            <input type="text">adresse
+
+        </form>
+    </section>
+
     <footer>
         <a href="index.php">
             <ul>

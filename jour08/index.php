@@ -10,23 +10,11 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.php">
-            <ul>
-                <li>
-                    Acceuil
-                </li>
-                <li>
-                    Inscription
-                </li>
-                <li>
-                    Connexion
-                </li>
-                <li>
-                    Rechercher
-                </li>
-            </ul>
-        </a>
+    <header class="bg-slate-500 flex justify-evenly text-white items-center h-12">
+        <a href="index.php" class="">Acceuil</a>
+        <a href="index.php">Inscription</a>
+        <a href="index.php">Connexion</a>
+        <a href="index.php">Rechercher</a>
     </header>
 
     <section>

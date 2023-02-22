@@ -11,6 +11,21 @@
 
 <body>
 
+    <form action="">
+
+        <label for="">id</label>
+        <input type="text">
+
+        <label for="">nom</label>
+        <input type="text">
+
+        <label for="">Type</label>
+        <select name="type" id="fg">gf</select>
+
+        <button>filtrer</button>
+
+    </form>
+
 </body>
 
 </html>

@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <main>
 
-        <button id="button">Afficher ou cacher</button>
 
-        <p id="compteur">0</p>
+    <button id="button">Afficher ou cacher</button>
 
-    </main>
+    <p id="compteur">0</p>
+
+
 </body>
 
 </html>

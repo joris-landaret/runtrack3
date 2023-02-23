@@ -14,12 +14,13 @@
     <form action="">
 
         <label for="">id</label>
-        <input type="text">
+        <input type="text" id="id">
 
         <label for="">nom</label>
-        <input type="text">
+        <input type="text" id="nom">
 
         <select name="type" id="type">
+
             <option value="Type">Type</option>
             <option value="water">Water</option>
             <option value="Fire">Fire</option>
@@ -41,7 +42,7 @@
 
         </select>
 
-        <button>filtrer</button>
+        <button id="button">filtrer</button>
 
     </form>
 
